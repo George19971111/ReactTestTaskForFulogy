@@ -1,0 +1,345 @@
+body{
+    background:#F8F8F8; 
+}
+.container_main{
+    width:90%;
+    max-width: 100%;
+    margin-left:auto;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.slidebarleft{
+    width:900px;
+    max-width: 100%;
+    height:auto;
+    margin-top:70px;
+}
+.mainconfigurator{
+    width:650px;
+    max-width: 100%;
+    height:calc(100vh - 55px);
+    border-left:1px solid #EBEBEB;
+    box-sizing: border-box;
+}
+
+.mainconfigurator__textcontainer{
+    width:550px;
+    max-width: 100%;
+    margin:0 auto;
+    height:auto;
+   
+}
+.mainconfigurator__textcontainer_text{
+    width:550px;
+    max-width: 100%;
+    height:auto;
+    
+    
+}
+.div_container_class{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_container_for_key{
+    font-family: 'HelveticaNeueCyr-Light';
+    font-size:17px;
+    font-weight: 500;
+    letter-spacing:0.5px;
+    color:#1A1A1A;
+   
+}
+.text_container_for_key_center{
+    align-self: center;
+}
+.button_text_container{
+    width:130px;
+    max-width: 100%;
+    height:40px;
+    background:#F0F0F0;
+    text-align: center;
+    font-family: 'HelveticaNeueCyr-Light';
+    font-size:17px;
+    font-weight: 500;
+    letter-spacing:0.5px;
+    line-height: 40px;
+    color:#1A1A1A;
+    border-radius: 10px;
+    box-shadow: 0 3.5px 4px -2px gray;
+}
+.button_text_container_div{
+    width:250px;
+    height:40px;
+    max-width: 100%; 
+}
+.text_datainformation_long{
+    width:250px;
+    height:40px;
+    max-width: 100%;
+    text-align: left;
+    font-family: 'HelveticaNeueCyr-Light';
+    font-size:17px;
+    font-weight: 500;
+    color:#1A1A1A;
+    align-self: center;
+}
+.text_datainformation{
+        width:130px;
+        height:40px;
+        max-width: 100%;
+        text-align: left;
+        font-family: 'HelveticaNeueCyr-Light';
+        font-size:17px;
+        font-weight: 500;
+        color:#1A1A1A;
+        align-self: center;
+}
+.mainconfigurator__informationlink{
+    width:100%;
+    height:65px;
+    margin-top:30px;
+    background:#00B6FF;
+    display: flex;
+    box-shadow: 0 4px 4px -2px lightgrey;
+    
+
+}
+.mainconfigurator__informationlink div{
+    width:90px;
+    max-width: 100%;
+    height:65px;
+    background:#00ABF0;
+    display: flex;
+    cursor: pointer;
+   
+    
+}
+.mainconfigurator__informationlink div p{
+   color:#fff;
+    margin:0 auto;
+   align-self: center;
+   font-size: 35px;
+   
+    
+}
+.mainconfigurator__informationlink_text{
+    align-self: center;
+    margin:0 auto;
+    color:#fff;
+    font-family: 'HelveticaNeueCyr-Light';
+    font-size:18px;
+    font-weight: 500;
+  
+    
+}
+.mainconfigurator__checkboxing{
+    width:100%;
+    max-width: 100%;
+    margin-top:3.5px;
+    height:336px;
+    background:#FCFCFC;
+    display: flex;
+
+}
+.mainconfigurator__checkboxing_content{
+    width:580px;
+    max-width: 100%;
+    height:auto;
+    align-self: center;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.relativitionblock{
+    position: relative;
+    transition: all .5s ease;
+    cursor: pointer;
+ 
+}
+.checkbox{
+    position: absolute;
+    top:5px;
+    right:25px;
+    display: none;
+}
+
+.checkbox input[type="checkbox"] { display: none; }
+
+.checkbox {  display: none;  }
+
+.checkbox label::before { content: ""; background:#00B5FE; border-radius:2px; display: inline-block; height: 20px; width: 20px; cursor: pointer; }
+
+.checkbox label::after { content: ""; margin-top: -14px; margin-left: -1px; cursor: pointer; }
+
+.checkbox label { position: relative; }
+
+.checkbox label::before, .checkbox label::after { position: absolute;  }
+
+/*Внешний блок*/
+.checkbox label::before { top: 3px;  }
+
+/*Галка*/
+.checkbox label::after { left: 5px; top: 20.5px; background-size: 10px 5px;  }
+
+/*Прячем галку по умолчанию*/
+.checkbox input[type="checkbox"] + label::after { content: none; }
+
+/*Показываем галку по состоянию checked*/
+.checkbox input[type="checkbox"]:checked + label::after { content: url("./img/tick.png");  }
+
+
+.togglerclassser{
+    transform: scale(1.1);
+    transition: all .5s ease;
+    
+}
+.togglerclassser img{
+    box-shadow: 0 3px 10px 2px rgba(0,0,0,0.5);
+}
+.textcontainer_relatives{
+    position: absolute;
+    bottom:0px;
+    right:0;
+    width:100%;
+    text-align: center;
+    background:rgba(0,0,0,0.7);
+    color:#fff;
+    font-family: 'HelveticaNeueCyr-Light';
+    font-size:17px;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+
+}
+.slidebarleft_first{
+    width:100%;
+    height:auto;
+    
+    position: relative;
+}
+.slidebarleft_first img{
+    display: block;
+    width:900px;
+    height:700px;
+    max-width: 100%;
+    
+}
+.slidebarleft_second img{
+    display: block;
+    max-width: 100%;
+    width:900px;
+    height:700px;
+}
+.slidebarleft_thearst img{
+    display: block;
+    max-width: 100%;
+    width:900px;
+    height:700px;
+}
+.slidebarleft_second{
+    width:100%;
+    height:auto;
+    
+    position: relative;
+}
+.slidebarleft_thearst{
+    width:100%;
+    height:auto;
+    
+    position: relative;
+}
+.hideentogler{
+    display: none;
+}
+.hideentogler_slide{
+    display: none;
+}
+.hideentogler1_slide{
+    display: none;
+}
+.hideentogler2_slide{
+    display: none;
+}
+.slider_dots_true1{
+    width:50px;
+    position: absolute;
+    left:0;
+    bottom:10px;
+    right:0;
+    margin:0 auto;
+    max-width: 100%;
+    height:auto;
+    display: flex;
+    justify-content:space-between;
+}
+.slider_dots_true1 div{
+    width:8px;
+    height:8px;
+    border:1px solid #fff;
+    border-radius: 20%;
+}
+
+.slider_dots_true{
+    width:50px;
+    position: absolute;
+    left:0;
+    bottom:10px;
+    right:0;
+    margin:0 auto;
+    max-width: 100%;
+    height:auto;
+    display: flex;
+    justify-content:space-between;
+}
+.slider_dots_true div{
+    width:8px;
+    height:8px;
+    border:1px solid #fff;
+    border-radius: 20%;
+}
+
+
+
+.slider_dots_true2{
+    width:50px;
+    position: absolute;
+    left:0;
+    bottom:10px;
+    right:0;
+    margin:0 auto;
+    max-width: 100%;
+    height:auto;
+    display: flex;
+    justify-content:space-between;
+}
+.slider_dots_true2 div{
+    width:8px;
+    height:8px;
+    border:1px solid #fff;
+    border-radius: 20%;
+}
+@media screen and (max-width:1745px){
+   
+    .slidebarleft{
+        width:700px;
+     
+    }
+    .container_main{
+        margin:0 auto;
+    }
+    .slidebarleft{
+        margin:130px auto 0px auto;
+    }
+    .mainconfigurator{
+        margin:20px auto 0px auto;
+    }
+}
+@media screen and (max-width:633px){
+    .relativitionblock {
+        margin:30px auto 0px auto;
+    }
+  
+}
