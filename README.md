@@ -1,2 +1,2 @@
 # ReactTestTaskForFulogy
-test task desktop http://cc71062.tmweb.ru/
+test task desktop and mobile http://cc71062.tmweb.ru/
